@@ -113,18 +113,19 @@ a{
 
     display: flex;
     flex-wrap: wrap;
+    justify-content:center; 
+    padding:0 5px;
+ 
 
 }
 
 
 .card1{
     background-color:red;
-    width:50%;
-
-
-    margin-right: 20px;
-    margin-bottom: 20px;
-  
+    width:40%;
+    
+    
+   
 
 }
 .card1_img img{
@@ -139,10 +140,9 @@ a{
 
 .card2{
     background-color:red;
-    width:50%;
-
-    margin-right: 20px;
-    margin-bottom: 20px;
+    width:40%;
+   
+    
 
   
 }
@@ -165,4 +165,5 @@ a{
       width: 100%;
     }
   }
+
 
