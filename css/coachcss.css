@@ -107,22 +107,20 @@ a{
     font-size:30px;
 }
 
-.card{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
+.card_container{
 
-.wrap {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
+   
+    flex-wrap: wrap;
+
+}
 
 
 .card1{
     background-color:red;
-    width:70%;
-   margin:auto;
+    width:100%;
+
+    margin-right: 20px;
+    margin-bottom: 20px;
   
 
 }
@@ -137,9 +135,12 @@ a{
 
 .card2{
     background-color:red;
-    width:70%;
-   margin:auto;
- 
+    width:100%;
+
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+  
 }
 .card2_img img{
     width: 100%;
@@ -160,3 +161,4 @@ a{
       width: 100%;
     }
   }
+
