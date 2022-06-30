@@ -113,8 +113,8 @@ a{
 
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-around; 
-    padding:0 5px;
+    justify-content: space-around;
+   
  
 
 }
@@ -122,8 +122,8 @@ a{
 
 .card1{
     background-color:red;
-    width:40%;
-    
+    width:30%;
+    margin:auto;
     
    
 
@@ -140,8 +140,8 @@ a{
 
 .card2{
     background-color:red;
-    width:40%;
-   
+    width:30%;
+   margin:auto;
     
 
   
@@ -165,5 +165,4 @@ a{
       width: 100%;
     }
   }
-
 
