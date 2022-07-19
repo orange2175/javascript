@@ -1,227 +1,637 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
- <meta charaset="UTF-8" />
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title></title>
-
- <link rel="stylesheet" href="css/reset.css"/>
- <link rel="stylesheet" href="css/coachcss.css"/>
-
- <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
 
 
-</head >
-<body>
-   
+.header img{
+ margin-top:10px;
+ margin-left:20px;
+ width:70px;
+ height:30px;
+ margin-bottom:10px;
 
-  <div class="header">
-    <div class="header_img">
-    <img src="c.img/img/logo.png">
-    </div>
-    <ul class="header_list">
-      <li class="header_item"><a href="coachtech.html" class="header_box">ホーム</a></li>
-      <li class="header_item"><a href="事業内容.html/事業内容.html" class="header_box">事業内容</a></li>
-      <li class="header_item"><a href="ニュース.html/ニュース.html" class="header_box">ニュース</a></li>
-      <li class="header_item"><a href="社員ブログ.html/社員ブログ.html" class="header_box">社員ブログ</a></li>
-      <li class="header_item"><a href="会社概要.html/会社概要.html" class="header_box">会社概要</a></li>
-      <li class="header_item"><a href="採用情報.html/" class="header_box">採用情報</a></li>
-      <li class="header_item"><a href="問い合わせ.html/問い合わせ.html" class="header_box">お問い合わせ</a></li>
-    </ul>
-    
-    </div>
-   
 
-    
-   
-    <!--  -->
-  
-      <div class="hamburger">
-     
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
+}
 
-    <nav class="globalMenuSp">
-        <ul>
-          <li class="header_item"><a href="coachtech.html">ホーム</a></li>
-          <li class="header_item"><a href="事業内容.html/事業内容.html">事業内容</a></li>
-          <li class="header_item"><a href="ニュース.html/ニュース.html">ニュース</a></li>
-          <li class="header_item"><a href="社員ブログ.html/社員ブログ.html">社員ブログ</a></li>
-          <li class="header_item"><a href="会社概要.html/会社概要.html">会社概要</a></li>
-          <li class="header_item"><a href="採用情報.html/採用情報.html">採用情報</a></li>
-          <li class="header_item"><a href="問い合わせ.html/問い合わせ.html">お問い合わせ</a></li>
-        </ul>
-    </nav>
+/*  */
 
 
 
-<!-- 最新テクノロジー -->
 
-
-<div class="top">
  
-   <div class="top_img">
-    <img src="c.img/img/mv.png">
-    </div>
-
-    <div class="top_item">
-    <h2 class="top_item1">最新のテクノロジーで社会課題を解決<br></h2>
-    <p class="top_item2">Solving social issues with the latest technology</p>
-    </div>
-
-<div class="top_log">
-    <div class="top_container">
-        <h2 class="top_item3">株式会社TECHの想い<br></h2>
-        <p class="top_item4">あらゆる産業において、新たなデジタル技術を使ってこれまでにないビジネスモデルを展開する新規参入者が登場し、ゲームチェンジが起ころうとしています。こうした中で、各企業は、競争力維持・強化のために、DXを迅速に進めていくことが求められています。しかし、DXにおいて投資コストは非常にかかります。株式会社TECHでは独自のオペレーションと人材教育により、他社よりも価格を抑えた開発を行います。</p>
-    </div>
-</div>
-</div>
-
-
-<!-- サービス -->
-
-<div class="service">
-    <div class="service_top">
-        <h4 class="service_item">サービス</h4>
-    </div>
+@media screen and (min-width:768px){
 
 
 
- <div class="card">
-  <div class="box">
-    <img src="c.img/img/service1.png">
-    <h3>IT人材育成事業</h3>
-    <p>これまでに培った教育手法を生かして、短期間で即戦力のIT人材を育成します。</p>
-  </div>
-
-  <div class="box">
-    <img src="c.img/img/service2.png">
-    <h3>コーチング事業</h3>
-    <p>目標達成を最短で実現するために、プロのコーチによるマンツーマンのサポートを実施します。</p>
-  </div>
-
-  <div class="box">
-    <img src="c.img/img/service1.png">
-    <h3>ITコンサル事業</h3>
-    <p>経営戦略にIT戦略を策定し、システム開発の提案やシステムの最適化を通じて、企業の経営をサポートします。</p>
-  </div>
-
-  <div class="box">
-    <img src="c.img/img/service2.png">
-    <h3>デジタルトランスフォーメーション事業</h3>
-    <p>人々の生活をよりよいものに変革するために様々なデジタル技術を活用し、革新的なソリューションやサービスを生み出します。</p>
-  </div>
-
-  
-</div>
-
- <a href="#"><div class="btn1">サービス一覧を見る</div></a>
-<!--  -->
-
-<div class="news">
-   <div class="news_container">
-    <div class="news_top">
-        <h2 class="news_item1">ニュース</h2>
-        <a href="#"><div class="btn2">ニュース一覧を見る</div></a>
-    </div>
+  .header img{
+    margin-top:10px;
+    margin-left:20px;
+    width:70px;
+    height:30px;
+    margin-bottom:10px;
+   }
    
-    <div class="news_item">
-        <a href="#"><div class="btn3">2019/07/17 会社を創業しました。</div></a>
-
-        <a href="#"><div class="btn3">2019/07/17 会社を創業しました。</div></a>
-
-        <a href="#"><div class="btn3">2019/07/17 会社を創業しました。</div></a>
-    </div>
-
-
-</div>
-</div>
-
-
-
-<!--  -->
-    
-<div class="blog">
-    <h3>社員ブログ</h3>
-</div>
-
-<div class="blog_top">
-    
-    <div class="blog_box"><img src="c.img/img/blog.png">
-        <p class="blog_text">2019/07/17</p>
-        <p class="blog_text1">会社を創業した理由</p>
-    </div>
-
-    
-    <div class="blog_box"><img src="c.img/img/blog.png">
-        <p class="blog_text">2019/07/17</p>
-        <p class="blog_text1">会社を創業した理由</p>
-    </div>
-
-    <div class="blog_box"><img src="c.img/img/blog.png">
-        <p class="blog_text">2019/07/17</p>
-        <p class="blog_text1">コーチングによるモチベーション工場理論</p>
-    </div>
-</div>
-
-<div class="blog_btn">
-<a href="#"><div class="btn4">社員ブログを見る</div></a>
-</div>
-
-
-<!--  -->
-
-<div class="overview">
-   <a class="over_item1" href="会社概要.html/会社概要.html"><h3 class="red">会社概要</h3></a>
-   <a class="over_item2" href="#"><h3 class="black">採用情報</h3></a>
-</div>
-
-<!--  -->
-
-
-<!-- inpuiry -->
-<div class="inpuiry">
-
-    <h2 class="inpuiry_item">お問い合わせ</h2>
-    <p class="inpuiry_text">お仕事のご依頼や採用に関してはお問い合わせにて承っております</p>
-
-    <a class="" href="問い合わせ.html/問い合わせ.html">
-    <div class="btn5">
-        お申し込み
-        </div>
-        </a>
-</div>
-
-
-</div>
-
-
-<div class="bottom">
-
-
-    <ul class="bottom_list">
-     <li class="bottom_item">©2020 tech inc.</li>
-      <li class="bottom_item"><a href="coachtech.html">ホーム</a></li>
-      <li class="bottom_item"><a href="事業内容.html/事業内容.html">事業内容</a></li>
-      <li class="bottom_item"><a href="ニュース.html/ニュース.html">ニュース</a></li>
-      <li class="bottom_item"><a href="社員ブログ.html/社員ブログ.html">社員ブログ</a></li>
-      <li class="bottom_item"><a href="会社概要.html/会社概要.html">会社概要</a></li>
-      <li class="bottom_item"><a href="採用情報.html/採用情報.html">採用情報</a></li>
-      <li class="bottom_item"><a href="問い合わせ.html/問い合わせ.html">お問い合わせ</a></li>
-    </ul>
-    
-    </div>
-    
-
-
-
-
-  <!-- js -->
-  <script type="text/javascript" src="js/coachtech.js"></script>
+  
+   .header{
+    display: flex;
+  }
+  
+  .header_list{
+   margin-top:20px;
+   margin-left: auto;
+   display: flex;
+   list-style: none; 
+   text-align: right;
+  }
+  
+  
+  
+  .header_box{
+    color:black;
+    margin-right:20px;
+  
+      }}
   
 
-</body>
 
-</html>
+
+
+
+/*  */
+
+@media screen and (max-width:768px){
+
+
+.header img{
+  margin-top:10px;
+  margin-left:20px;
+  width:70px;
+  height:30px;
+  margin-bottom:10px;
+  display: flex;
+ 
+ }
+ 
+
+
+
+.header_list{
+  /* margin-top:20px; */
+  margin-left: auto;
+  
+  list-style: none; 
+  text-align: right;
+ }
+ 
+ 
+ 
+ .header_box2{
+   
+   
+   margin-right:20px;
+   
+  }
+
+
+/*  */
+.hamburger {
+
+
+  position: sticky;
+  display : block;
+  
+  z-index : 3;
+  /* right : 13px; */
+  top   : 12px;
+  width : 42px;
+  height: 42px;
+  cursor: pointer;
+  /* text-align: center; */
+  margin-left:auto;
+  margin-right:10px;
+  
+}
+.hamburger span {
+  display : block;
+  position: absolute;
+  width   : 30px;
+  height  : 2px ;
+  left    : 6px;
+  background : #555;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition   : 0.3s ease-in-out;
+  transition        : 0.3s ease-in-out;
+}
+.hamburger span:nth-child(1) {
+  top: 10px;
+}
+.hamburger span:nth-child(2) {
+  top: 20px;
+}
+.hamburger span:nth-child(3) {
+  top: 30px;
+}
+
+
+.hamburger.active span:nth-child(1) {
+  top : 16px;
+  left: 6px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform   : rotate(-45deg);
+  transform        : rotate(-45deg);
+}
+
+.hamburger.active span:nth-child(2),
+.hamburger.active span:nth-child(3) {
+  top: 16px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform   : rotate(45deg);
+  transform        : rotate(45deg);
+}
+
+nav.globalMenuSp {
+  position: fixed;
+  z-index : 2;
+  top  : 0;
+  left : 0;
+  color: #000;
+  background: #fff;
+  text-align: center;
+  transform: translateX(100%);
+  transition: all 0.6s;
+  width: 100%;
+
+
+}
+
+nav.globalMenuSp ul {
+  background:white;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;  
+
+}
+
+nav.globalMenuSp ul li {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  border-bottom: 1px solid #fff; 
+
+  
+  line-height:50px;
+}
+nav.globalMenuSp ul li:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+nav.globalMenuSp ul li:hover{
+  background:white;
+}
+
+nav.globalMenuSp ul li a {
+  display: block;
+  color: #000;
+  padding: 1em 0;
+  text-decoration :none;
+}
+
+
+nav.globalMenuSp.active {
+  transform: translateX(0%);
+
+}}
+
+/*  */
+
+
+/*  */
+.top_img{
+  margin-right: calc(50% - 50vw);
+margin-left: calc(50% - 50vw);   
+  position: relative;
+
+}
+
+.top_img img {
+  display: block; 
+width: 100%;
+  height: 500px;    
+
+}
+
+
+.top_item{
+  position:absolute;   
+  margin:0 auto;
+  width:100%;
+  text-align:center;
+  top:250px;
+  color:white;
+}
+
+.top_item1{ 
+
+ font-size:50px;
+ text-align: center;
+ line-height: 60px;
+
+}
+.top_item2{
+ font-size:20px;
+  
+}
+
+.top_log{
+  background-color:black;
+  width: 100%;
+height: 400px;
+  color:white;
+  font-size:20px;
+
+}
+
+.top_container{
+  line-height: 30px;
+  padding-top:100px;
+  padding-left:40px;
+}
+
+.top_item3{
+  font-size:30px;
+}
+.top_item4{
+  padding-top:20px;
+  font-size:15px;
+}
+
+
+/*  */
+
+.service_top{
+  font-size:50px;
+
+  text-align: center;
+  margin:50px;
+
+}
+
+.card{
+display: flex;
+flex-wrap: wrap;
+justify-content:center;
+
+}
+
+.box {
+
+  font-size: 20px;
+  line-height: 25px;
+  margin-right: 20px;
+  margin-left:20px;
+  margin-bottom: 20px;
+  width: 500px;
+  height: 420px;
+  }
+  .box img{
+    width: 500px;
+    height:300px;
+  }
+  
+  .btn5{
+    font-size: 20px;
+    color:aliceblue;
+    background-color: crimson;
+    height:20px;
+    width:300px;
+    text-align: center;
+    margin:auto;
+    padding: 15px;
+  
+
+
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all  0.5s ease;
+
+}
+
+.btn5:hover{
+  background-color:rgb(216, 89, 115);
+}
+
+/*  */
+
+.news{
+
+  background-color: black;
+  height:500px;
+}
+
+.news_top{
+  padding-top:100px;
+  display:flex;
+  justify-content:space-between;
+ margin: 30px;
+ 
+}
+
+
+.news_item1{
+  color:aliceblue;
+   font-size:20px ;
+   padding-top:15px;
+}
+
+.news_container{
+   margin:0 auto;
+  width:100%;
+}
+
+.btn2{
+  color:aliceblue;
+  font-size:15px;
+  background-color: crimson;
+  width: 200px;
+  height:10px;
+  text-align: center;
+  padding:15px;
+
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all  0.5s ease;
+}
+
+
+.btn2:hover {
+  background-color :rgb(216, 89, 115);
+  }
+
+
+.btn3{
+  color:black;
+  background-color: aliceblue;
+  padding:30px;
+ margin-right: 30px;
+ margin-left: 30px;
+ margin-top: 10px;
+ justify-content: center;
+
+ -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all  0.5s ease;
+}
+
+
+.btn3:hover{
+  background-color:rgb(149, 147, 147);
+}
+
+
+/*  */
+
+
+.blog{
+  margin-top:150px;
+  text-align: center;
+  font-size: 30px;
+  
+ 
+}
+
+.blog_top{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+ 
+}
+
+.blog_box{
+ 
+  background-color:white;
+  margin-top:30px;
+  margin-left: 10px;
+  margin-bottom:8%;
+  width: 350px;
+  height: 200px;
+  line-height: 20px;
+  
+}
+
+.blog_box img{
+
+  width:100%;
+  height:100%;
+  
+}
+.blog_box img:hover{
+opacity: 0.7;
+}
+
+.blog_text{
+  font-size:10px;
+}
+.blog_text1{
+  font-size:15px;
+}
+
+
+.btn4{
+  font-size: 20px;
+  color:aliceblue;
+  background-color: crimson;
+  height:20px;
+  width:300px;
+  text-align: center;
+  margin:0 auto;
+  padding:20px;
+  margin-top:15px;
+  margin-bottom:40px;
+  
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all  0.5s ease;
+
+}
+
+.btn4:hover{
+  background-color:rgb(216, 89, 115);
+}
+
+
+
+/*  */
+
+
+.overview{
+  display:flex;
+  justify-content: space-between;
+  text-align: center;
+
+  line-height:200px;
+  font-size:30px;
+  z-index: 100;
+}
+
+.over_item1{
+  background-color: red;
+  width:50%;
+  height: 200px; 
+  color:white;
+
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all  0.5s ease;
+}
+.over_item2{
+  background-color: black;
+  width:50%;
+  height: 200px;
+  color:white;
+
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all  0.5s ease;
+}
+.over_item1:hover{
+  background-color:rgb(216, 89, 115);
+}
+.over_item2:hover{
+  background-color: gray;
+}
+
+
+/*  */
+
+
+.inpuiry{
+  text-align: center;
+  margin-top: 60px;
+  line-height: 30px;
+}
+.inpuiry_item{
+  font-size:30px;
+  padding-top: 50px;
+}
+
+.btn5{
+  font-size: 20px;
+  
+  background-color: crimson;
+  height:20px;
+  width: 300px;
+  text-align: center;
+  line-height: 30px;
+
+  margin:0 auto;
+  padding:20px;
+
+  /* margin-top:10px; */
+  /* margin-bottom:30px; */
+  
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all  0.5s ease;
+
+}
+
+.btn5:hover{
+  background-color:rgb(216, 89, 115);
+}
+
+a{
+  text-decoration:none;
+  color:white;
+}
+
+/*  */
+
+
+
+
+
+
+.btn5{
+  font-size: 20px;
+  
+  background-color: crimson;
+  height:20px;
+  width: 300px;
+  text-align: center;
+  line-height: 30px;
+
+  margin:0 auto;
+  padding:20px;
+
+  /* margin-top:10px; */
+  /* margin-bottom:30px; */
+  
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all  0.5s ease;
+
+}
+
+.btn5:hover{
+  background-color:rgb(216, 89, 115);
+}
+
+a{
+  text-decoration:none; 
+  color:white;  
+}
+
+
+/*  */
+
+.bottom{
+ margin-top: 50px;
+ background-color:black;
+ width:100%;
+ height: 30%;
+ line-height: 40px;
+ font-size: 13px;
+
+}
+
+
+
+.bottom_item{
+padding:0 10px;
+
+}
+
+
+.bottom_item:first-child{
+margin-right: auto;
+/* width: 50px; height: 50px; */
+}
+
+
+
+
+@media screen and (min-width:769px){
+  .bottom_list{
+  
+  
+    color:white;
+    display: flex; 
+    width: 100%;
+    list-style-type: none;
+  }}
+  
+  @media screen and (max-width:768px){
+  .bottom_list{
+    color:white;
+    line-height: 30px;
+    list-style-type: none;
+    text-align: center;
+    padding:0 20px;
+    
+  }}
+
