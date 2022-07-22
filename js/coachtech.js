@@ -1,7 +1,11 @@
-const target = document.getElementById("hamburger");
-target.addEventListener('click', () => {
-  const target = document.getElementById("hamburger");
-  target.classList.toggle('open');
-  const nav = document.getElementById("globalMenuSp");
-  nav.classList.toggle('in');
+$(function() {
+    $('.hamburger').click(function() {
+        $(this).toggleClass('active');
+ 
+        if ($(this).hasClass('active')) {
+            $('.globalMenuSp').addClass('active');
+        } else {
+            $('.globalMenuSp').removeClass('active');
+        }
+    });
 });
